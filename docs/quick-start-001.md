@@ -377,3 +377,6 @@ optionals:
 ![](./img/vscode-docker-001.png)
 useful to work on ```Dockerfile```
 ![](./img/vscode-docker-002.png)
+
+---
+[back to the index](./index.md)

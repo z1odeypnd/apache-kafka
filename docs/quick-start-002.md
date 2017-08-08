@@ -10,3 +10,6 @@ oc create -f https://raw.githubusercontent.com/rondinif/openshift-kafka/master/r
 oc new-app apache-kafka
 # oc logs --follow apache-kafka
 ```
+
+---
+[back to the index](./index.md)

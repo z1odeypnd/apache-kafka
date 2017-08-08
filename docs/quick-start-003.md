@@ -38,3 +38,5 @@ Error from server (AlreadyExists): deploymentconfigs "kafka-debug" already exist
 ```
 ![deployment-config](./img/deployment-config-001.png)
 
+---
+[back to the index](./index.md)

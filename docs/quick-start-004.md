@@ -34,3 +34,6 @@ bin/kafka-console-consumer.sh --bootstrap-server apache-kafka:9092 --topic test 
 ## Credits
 
 * This is based on work original by [Jim Minter](https://github.com/jim-minter) and a fork of https://github.com/mattf/openshift-kafka by [Matthew Farrellee](https://github.com/mattf)
+
+---
+[back to the index](./index.md)
