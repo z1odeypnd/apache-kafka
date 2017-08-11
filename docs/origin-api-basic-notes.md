@@ -125,3 +125,7 @@ once I get my oc version ( v.3.6.0 ) I can build my PDF reference URL:
 [pdf: https://access.redhat.com/documentation/en-us/openshift_container_platform/3.6/pdf/rest_api_reference/OpenShift_Container_Platform-3.6-REST_API_Reference-en-US.pdf](https://access.redhat.com/documentation/en-us/openshift_container_platform/3.6/pdf/rest_api_reference/OpenShift_Container_Platform-3.6-REST_API_Reference-en-US.pdf)
 
 [or get the latest](https://docs.openshift.org/latest/rest_api/openshift_v1.html)
+
+
+---
+[back to the index](./index.md)
