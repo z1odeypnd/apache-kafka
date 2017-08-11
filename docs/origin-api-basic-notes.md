@@ -2,7 +2,7 @@
 [Overview](https://docs.openshift.org/latest/rest_api/openshift_v1.html)
 
 ## JWT Authorization
-[https://tools.ietf.org/html/rfc7519]
+[rfc7519](https://tools.ietf.org/html/rfc7519)
 <cite>
  JSON Web Token (JWT) is a compact, URL-safe means of representing
    claims to be transferred between two parties.  The claims in a JWT
@@ -14,14 +14,14 @@
  </cite> 
 
 ## Add a Service Account robot for the API
-we want to use ```Service Account Tokens``` for our lab: 
+we want to use the ```robot``` ```Service Account Tokens``` for our lab: 
 
 ``` bash
-openshift-kafka (develop)*$ oc create serviceaccount robot
+$ oc create serviceaccount robot
 serviceaccount "robot" created
-openshift-kafka (develop)*$ oc policy add-role-to-user admin system:serviceaccounts:test:robot
+$ oc policy add-role-to-user admin system:serviceaccounts:test:robot
 role "admin" added: "system:serviceaccounts:test:robot"
-openshift-kafka (develop)*$ oc serviceaccounts get-token robot
+$ oc serviceaccounts get-token robot
 ```
 
 for **Authentication** requirements copy the token to the [Authorization HTTP header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8)
