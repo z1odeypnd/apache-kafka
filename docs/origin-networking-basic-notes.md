@@ -330,13 +330,6 @@ and the [Kubernetes v1 REST API](https://docs.openshift.org/latest/rest_api/kube
 
 ``` GET {{protocol}}://{{host-name}}:{{host-port}}/api/v1/namespaces/kafka-lab/endpoints/apache-kafka```
 
-<<<<<<< HEAD
-Handling connection for 9092
-Handling connection for 9092
-```
-
 ---
 [back to the index](./index.md)
-=======
 ![](./img/kubernetes-api-v1-endpoints-002.png)
->>>>>>> develop
