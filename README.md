@@ -35,8 +35,7 @@ $ oc logs --follow apache-kafka-1-ln40b -c apache-kafka
 	advertised.host.name = apache-kafka
 
 $ oc logs --follow apache-kafka-1-ln40b -c apache-zookeeper
-[2017-08-10 12:25:17,652] INFO KafkaConfig values: 
-	advertised.host.name = apache-kafka
+[2017-08-10 12:25:19,697] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
 ```
 
 ...for specific diagnostic purpose log grepping could be useful :
