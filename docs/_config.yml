@@ -1,5 +1,38 @@
 theme: jekyll-theme-midnight
-title: openshift-kafka rondinif fork
+title: openshift-kafka - fork
 description: Run Apache Kafka and Apache ZooKeeper on OpenShift v3.
 show_downloads: false
 google_analytics: UA-104415848-1
+url: https://rondinif.github.io/openshift-kafka/
+author: Franco Rondini
+twitter: 
+  username: rondinif
+logo: /openshift-kafka/assets/logo.png
+
+social:
+  name: Franco Rondini
+  links:
+    - https://twitter.com/rondinif
+    - https://www.facebook.com/rondinif
+    - https://www.linkedin.com/in/rondinif
+    - https://plus.google.com/+FrancoRondini
+    - https://github.com/rondinif
+    - https://stackoverflow.com/users/1657028/franco-rondini
+
+# webmaster_verifications:
+#  google: 1234
+#  bing: 1234
+#  alexa: 1234
+#  yandex: 1234
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      categories: [milk, pumpkin pie, eggs, juice]
+      tags: [milk, pumpkin pie, eggs, juice]
+plugins:
+  - jekyll-seo-tag
+

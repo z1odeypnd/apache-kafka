@@ -1,3 +1,8 @@
+---
+title: Quick Start Explained - part 3 
+description: Deploy a debugging container and connect to it
+image: /openshift-kafka/img/img/deployment-config-001.png
+---
 # Quick Start Explained ( part 3 of 4)
 ##  Deploy a debugging container and connect to it
 

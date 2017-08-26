@@ -1,4 +1,4 @@
-# "Apache Kafka for OpenShift"
+# ["Apache Kafka for OpenShift"](https://rondinif.github.io/openshift-kafka/)
 
 Run [Apache Kafka](https://kafka.apache.org/) and [Apache ZooKeeper](https://zookeeper.apache.org/) on [OpenShift v3](https://www.openshift.com/).
 
@@ -84,6 +84,9 @@ EOF
 ``` bash
 bin/kafka-console-consumer.sh --bootstrap-server apache-kafka:9092 --topic test --from-beginning
 ```
+
+## more info on the project github page:
+["Apache Kafka for OpenShift"](https://rondinif.github.io/openshift-kafka/)
 
 ## Credits
 

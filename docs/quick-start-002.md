@@ -1,3 +1,7 @@
+---
+title: Quick Start Explained - part 2
+description: Load resources Templates, DeploymentConfigs, Services
+---
 # Quick Start Explained ( part 2 of 4)
 ## Load resources (Templates, DeploymentConfigs, Services)
 ```bash

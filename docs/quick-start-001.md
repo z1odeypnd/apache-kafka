@@ -1,3 +1,9 @@
+---
+title: Quick Start Explained - part 1 
+description: Intro notes to the platform, openshift-orign, docker and kubernetes
+image: /openshift-kafka/img/origin-webconsole-001.png
+---
+
 # Quick Start Explained ( part 1 of 4)
 some intro notes to the platform: openshift-orign, docker and kubernetes 
 ## pre-requisites ( my environment )

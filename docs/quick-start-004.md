@@ -1,3 +1,7 @@
+---
+title: Quick Start Explained - part 4 
+description: Working with Apache Kafka
+---
 # Quick Start Explained ( part 4 of 4)
 
 ## Follow the [Apache Kafka Documentation Quick Start](https://kafka.apache.org/documentation.html#quickstart)
