@@ -3,7 +3,7 @@ title: openshift-kafka - fork
 description: Run Apache Kafka and Apache ZooKeeper on OpenShift v3.
 show_downloads: false
 google_analytics: UA-104415848-1
-url: https://rondinif.github.io/openshift-kafka/
+url: https://rondinif.github.io
 author: Franco Rondini
 twitter: 
   username: rondinif
@@ -35,4 +35,3 @@ defaults:
       tags: [milk, pumpkin pie, eggs, juice]
 plugins:
   - jekyll-seo-tag
-
