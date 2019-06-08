@@ -2,7 +2,7 @@ theme: jekyll-theme-midnight
 title: openshift-kafka - fork
 description: Run Apache Kafka and Apache ZooKeeper on OpenShift v3.
 show_downloads: false
-google_analytics: UA-104415848-1
+# google_analytics: UA-104415848-1
 url: https://rondinif.github.io
 author: Franco Rondini
 twitter: 
