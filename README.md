@@ -85,8 +85,8 @@ EOF
 bin/kafka-console-consumer.sh --bootstrap-server apache-kafka:9092 --topic test --from-beginning
 ```
 
-# ["Docker Hub"] (https://hub.docker.com/r/shokhin/apache-kafka)
+# [Docker Hub](https://hub.docker.com/r/shokhin/apache-kafka)
 
 ## Credits
 
-* This is based on work original by [Jim Minter](https://github.com/jim-minter) and a fork of https://github.com/mattf/openshift-kafka by [Matthew Farrellee](https://github.com/mattf)
+* This is based on work original by [Jim Minter](https://github.com/jim-minter) and a fork of https://github.com/rondinif/openshift-kafka by [Franco Rondini](https://github.com/rondinif)
