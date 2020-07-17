@@ -1,4 +1,4 @@
-# ["Apache Kafka for OpenShift"](https://rondinif.github.io/openshift-kafka/)
+# Apache Kafka for OpenShift
 
 Run [Apache Kafka](https://kafka.apache.org/) and [Apache ZooKeeper](https://zookeeper.apache.org/) on [OpenShift v3](https://www.openshift.com/).
 
@@ -15,7 +15,7 @@ The architecture is as follows:
 ###  Load resources (Templates, DeploymentConfigs, Services)
 
 ```bash
-oc create -f https://raw.githubusercontent.com/rondinif/openshift-kafka/master/resources.yaml
+oc create -f https://raw.githubusercontent.com/z1odeypnd/apache-kafka/master/resources.yaml
 ```
 
 ### Deploy the Apache Kafka + Apache Zookeeper pod
@@ -54,7 +54,7 @@ $ oc logs --follow apache-kafka-1-ln40b -c apache-zookeeper | grep "socket conne
 1. Deploy a debugging container and connect to it
 
 ``` bash
-oc run -it --rm kafka-debug --image=rondinif/openshift-kafka --command -- bash
+oc run -it --rm kafka-debug --image=shokhin/apache-kafka --command -- bash
 ```
 
 2. Create a topic
@@ -85,8 +85,7 @@ EOF
 bin/kafka-console-consumer.sh --bootstrap-server apache-kafka:9092 --topic test --from-beginning
 ```
 
-## more info on the project github page:
-["Apache Kafka for OpenShift"](https://rondinif.github.io/openshift-kafka/)
+# ["Docker Hub"] (https://hub.docker.com/r/shokhin/apache-kafka)
 
 ## Credits
 
